@@ -11,8 +11,8 @@ jobs:
       - image: cimg/node:lts
     # To use Remote Caching, uncomment the next lines and follow the steps below.
     environment:
-     TURBO_TOKEN: $TURBO_TOKEN
-     TURBO_TEAM: $TURBO_TEAM
+      TURBO_TOKEN: $TURBO_TOKEN
+      TURBO_TEAM: $TURBO_TEAM
     steps:
       - checkout
       - node/install-packages:
